@@ -19,6 +19,7 @@
     [self printLog];
     [self testMethod];
     [self addNumbers];
+    [self subtract];
 }
 
 - (void)didReceiveMemoryWarning {
