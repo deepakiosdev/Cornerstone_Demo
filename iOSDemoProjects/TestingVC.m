@@ -38,4 +38,12 @@
     int b = 30;
     NSLog(@"Sum is:%d",a+b);
 }
+
+-(void)subtract {
+    int a = 10;
+    int b = 30;
+    NSLog(@"Sum is:%d",a -b);
+}
+
+
 @end
