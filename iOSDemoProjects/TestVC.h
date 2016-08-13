@@ -1,13 +1,13 @@
 //
-//  TestingVC.h
+//  TestVC.h
 //  iOSDemoProjects
 //
-//  Created by Deepak on 09/07/16.
+//  Created by Deepak on 13/08/16.
 //  Copyright © 2016 Deepak. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface TestingVC : UIViewController
--(void)printLog;
+@interface TestVC : UIViewController
+
 @end

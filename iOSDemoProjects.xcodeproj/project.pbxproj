@@ -21,6 +21,7 @@
 		0045F62D1D2433150070ECCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0045F62B1D2433150070ECCC /* LaunchScreen.storyboard */; };
 		0045F6361D24339E0070ECCC /* ProjectsListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0045F6351D24339E0070ECCC /* ProjectsListVC.m */; };
 		0045F6391D2437A30070ECCC /* BreakPointsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0045F6381D2437A30070ECCC /* BreakPointsVC.m */; };
+		00DFCA811D5F58310070AD5D /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DFCA801D5F58310070AD5D /* TestVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,8 @@
 		0045F6351D24339E0070ECCC /* ProjectsListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectsListVC.m; sourceTree = "<group>"; };
 		0045F6371D2437A30070ECCC /* BreakPointsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreakPointsVC.h; sourceTree = "<group>"; };
 		0045F6381D2437A30070ECCC /* BreakPointsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreakPointsVC.m; sourceTree = "<group>"; };
+		00DFCA7F1D5F58310070AD5D /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		00DFCA801D5F58310070AD5D /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				0045F6351D24339E0070ECCC /* ProjectsListVC.m */,
 				0045F6371D2437A30070ECCC /* BreakPointsVC.h */,
 				0045F6381D2437A30070ECCC /* BreakPointsVC.m */,
+				00DFCA7F1D5F58310070AD5D /* TestVC.h */,
+				00DFCA801D5F58310070AD5D /* TestVC.m */,
 			);
 			path = iOSDemoProjects;
 			sourceTree = "<group>";
@@ -197,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00DFCA811D5F58310070AD5D /* TestVC.m in Sources */,
 				000991271D4FA9A500373E39 /* CrashTestVC.m in Sources */,
 				000991281D4FA9A500373E39 /* FirstVC.m in Sources */,
 				0045F6221D2433150070ECCC /* AppDelegate.m in Sources */,

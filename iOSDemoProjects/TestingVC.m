@@ -16,11 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self printLog];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(void)printLog {
+    NSLog(@"Hello branch");
+}
+
 @end
