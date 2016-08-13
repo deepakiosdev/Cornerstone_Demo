@@ -12,4 +12,5 @@
 -(void)printLog;
 -(void)testMethod;
 -(void)addNumbers;
+-(void)method1;
 @end
