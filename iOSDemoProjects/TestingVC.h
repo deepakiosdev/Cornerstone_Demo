@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TestingVC : UIViewController
+-(void)testMethod;
 -(void)addNumbers;
 @end

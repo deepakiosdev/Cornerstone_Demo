@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self testMethod];
     [self addNumbers];
 }
 
@@ -23,6 +24,10 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(void)testMethod {
+    NSLog(@"Hello trunk");
+}
+
 -(void)addNumbers {
     int a = 10;
     int b = 30;
