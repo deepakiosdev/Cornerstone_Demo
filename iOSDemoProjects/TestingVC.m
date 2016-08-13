@@ -16,11 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self addNumbers];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+-(void)addNumbers {
+    int a = 10;
+    int b = 30;
+    NSLog(@"Sum is:%d",a+b);
 }
 @end
