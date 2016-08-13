@@ -17,15 +17,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self printLog];
+    [self testMethod];
+    [self addNumbers];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
--(void)printLog {
-    NSLog(@"Hello branch");
+-(void)testMethod {
+    NSLog(@"Hello trunk");
 }
 
+-(void)addNumbers {
+    int a = 10;
+    int b = 30;
+    NSLog(@"Sum is:%d",a+b);
+}
 @end

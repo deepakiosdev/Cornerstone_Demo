@@ -10,4 +10,6 @@
 
 @interface TestingVC : UIViewController
 -(void)printLog;
+-(void)testMethod;
+-(void)addNumbers;
 @end
