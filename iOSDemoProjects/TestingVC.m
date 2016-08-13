@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self printLog];
     [self testMethod];
     [self addNumbers];
 }
@@ -24,6 +25,10 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(void)printLog {
+    NSLog(@"Now code is merged.");
+}
+
 -(void)testMethod {
     NSLog(@"Hello trunk");
 }
